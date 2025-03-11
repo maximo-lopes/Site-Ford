@@ -40,9 +40,6 @@ header img {
 /* *********************MAIN********************* */
 
 main {
-    display: flex;
-    background-color: red;
-    justify-content: center;
     flex-grow: 1;
 }
 
@@ -51,7 +48,25 @@ main {
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background-color: #1b357e;
-    padding: 1rem;
+    color: white;
+    padding: 15px 20px;
+
+}
+
+footer div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+footer div img {
+    width: 35px;
+    height: 35px;
+}
+
+.logomarca2 {
+    margin-right: 20px;
 }
