@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contato.css">
 </head>
 <body>
     <header>
@@ -25,6 +26,21 @@
     </header>
 
     <main>
+        <img src="../images/xls 2.2 diesel.jpg" alt="">
+        <form class="formulario">
+            <p class="sobrevoce">Sobre você</p>
+            <input class="input" type="text" placeholder="NOME" required>
+            <input class="input" type="email" placeholder="E-MAIL" required>
+            <input class="input" type="number" placeholder="NÚMERO DE TELEFONE" required>
+            <select class="input" required>
+                <option value="" disabled selected>TIPO DA MENSAGEM</option>
+                <option value="elogio">Elogio</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>
+            <textarea cols="30" rows="4" placeholder="mensagem" required></textarea>
+            <button class="button">Enviar</button>
+        </form>
     </main>
 
     <footer>
