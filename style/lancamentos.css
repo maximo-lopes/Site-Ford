@@ -13,3 +13,14 @@ main {
     background-color: blue;
     width: 100%; 
 }
+
+.tabela {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+
+.elemento_tabela {
+    display: flex;
+    flex-direction: column;
+}
