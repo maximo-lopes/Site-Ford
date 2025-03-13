@@ -6,6 +6,11 @@ main {
     justify-content: center;
     align-items: start;
     margin-top: 7%;
+    flex-wrap: wrap-reverse;
+}
+
+main img {
+    align-self: start;
 }
 
 .formulario {
@@ -20,6 +25,8 @@ textarea {
     resize: none;
     max-width: 100%;
     max-height: 50px;
+    border: 2px solid black;
+    border-radius: 0.3rem;
 }
 
 textarea::placeholder {
@@ -35,6 +42,7 @@ textarea::placeholder {
 .input {
     border-radius: 0.3rem;
     height: 30px;
+    border: 2px solid black;
 }
 
 .button {
@@ -44,4 +52,12 @@ textarea::placeholder {
     border-radius: 0.3rem;
     width: 150px;
     height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+    margin-right: 2px;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
