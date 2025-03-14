@@ -46,7 +46,6 @@ textarea::placeholder {
 }
 
 .button {
-    color: white;
     align-self: flex-end;
     background-color: #1e549f;
     border-radius: 0.3rem;
@@ -56,6 +55,11 @@ textarea::placeholder {
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
     margin-right: 2px;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 button:hover {
