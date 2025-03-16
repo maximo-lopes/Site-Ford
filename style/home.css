@@ -8,12 +8,16 @@ main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-}
+    align-items: center;
+    gap: 1rem;
+    
+    .ranger2022 {
+        width: 90%;
+        height: auto;
+    }
 
-.ranger2022 {
-    width: 90%;
-    height: auto;
+    figcaption {
+        margin-bottom: 1rem;
+    }
 }
