@@ -26,7 +26,7 @@ textarea {
     resize: none;
     max-width: 100%;
     max-height: 50px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.375);
     border-radius: 0.3rem;
 }
 
@@ -43,18 +43,18 @@ textarea::placeholder {
 .input {
     border-radius: 0.3rem;
     height: 30px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.375);
 }
 
 .button {
     align-self: flex-end;
     background-color: #1e549f;
     border-radius: 0.3rem;
-    width: 150px;
+    width: 40%;
     height: 40px;
     border: none;
     cursor: pointer;
-    transition: transform 0.4s ease-in-out;
+    transition: all 0.4s;
     margin-right: 2px;
     
     a {

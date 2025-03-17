@@ -21,8 +21,9 @@ main {
     
     .section_tabela {
         display: flex;
+        flex-direction: column;
         flex-grow: 1;
-        width: 100vw;
+        width: 100%;
         align-items: center;
         justify-content: center;
 
@@ -31,7 +32,7 @@ main {
             flex-grow: 1;
             gap: 5rem;
             margin: 3rem 0;
-            width: 100vw;
+            width: 100%;
             justify-content: center;
             flex-wrap: wrap;
     
@@ -57,7 +58,11 @@ main {
                     .checkbox_e_texto{
                         display: flex;
                         justify-content: right;
-                        gap: 5px;
+                        gap: 1rem;
+
+                        .checkbox {
+                            transform: scale(1.5);
+                        }
             
                         .texto_tabela {
                             display: flex;
@@ -88,6 +93,10 @@ main {
         max-height: 200px;
         height: 2rem;
         margin-bottom: 1rem;
+        transition: all 0.4s;
     }
 }
 
+.button_comparar:hover {
+ transform: scale(1.15);   
+}

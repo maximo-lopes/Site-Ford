@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /* *********************HEADER********************* */
@@ -55,23 +56,23 @@ footer {
     color: white;
     padding: 10px 10px;
 
-    div {
+    div{
         display: flex;
-        gap: 0.5rem;
         align-items: center;
-        
-        a {
-            background-color: red;
-        }
+        gap: 0.5rem;
 
-        img {
-            padding: 0;
-            max-width: 200px;
-            max-height: 200px;
-            width: 70%;
-            height: 70%;
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+
+            img {
+                width: 2rem;
+            }
         }
     }
+
 }
 
 .logomarca2 {
