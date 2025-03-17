@@ -18,11 +18,15 @@ body {
 .header {
     display: flex;
     padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
 
     img {
         left: 0;
         max-width: 170px;
-        width: 10%;
+        width: 40%;
+        height: auto;
     }
 
     .links {
@@ -31,7 +35,9 @@ body {
         margin: 0 auto;
         gap: 1rem;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
         
         a {
             text-decoration: none;
