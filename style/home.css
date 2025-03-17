@@ -2,19 +2,21 @@
 
 main {
     display: flex;
+    flex-grow: 1;
 }
 
 .imagem_home {
-    flex-grow: 1;
     display: flex;
     padding: 1rem;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     
     .ranger2022 {
-        max-width: 1000px;
+        justify-content: center;
+        max-width: 1200px;
         width: 70%;
         height: auto;
     }

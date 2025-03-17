@@ -16,6 +16,7 @@ body {
 
 .header {
     display: flex;
+    padding: 10px;
 
     img {
         left: 0;
@@ -59,6 +60,10 @@ footer {
         gap: 0.5rem;
         align-items: center;
         
+        a {
+            background-color: red;
+        }
+
         img {
             padding: 0;
             max-width: 200px;
@@ -68,8 +73,6 @@ footer {
         }
     }
 }
-
-
 
 .logomarca2 {
     max-width: 170px;
